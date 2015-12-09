@@ -24,7 +24,7 @@ You can find more information and full documentation for each of these component
 - Rails: <http://rubyonrails.org/documentation/>
 - RubyGems: <http://guides.rubygems.org>
 - Bundler: <http://bundler.io>
-- Rbenv: <https://github.com/sstephenson/rbenv>
+- Rbenv: <https://github.com/rbenv/rbenv>
 
 
 ## Installation
