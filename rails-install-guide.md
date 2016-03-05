@@ -103,9 +103,9 @@ This gives you a list of all the versions of Ruby that Rbenv can install for you
 
 We’re now going to install the latest stable version of Ruby at the time of writing. Run the following command to do this:
 
-    $ rbenv install 2.2.3
+    $ rbenv install 2.3.0
 
-This compiles and installs version 2.2.3 or Ruby in your home directory at `~/.rbenv/versions/2.2.3/`
+This compiles and installs version 2.3.0 or Ruby in your home directory at `~/.rbenv/versions/2.3.0/`
 
 Now run:
 
@@ -124,13 +124,13 @@ You can get a list of all your Ruby installation with:
 This should output something like:  
 
     * system (set by /Users/thijs/.rbenv/version)
-      2.2.3
+      2.3.0
 
 In this list, the version of Ruby that will be used when your run a Ruby command from the current directory is prefixed with an asterisk. This line also shows how this version was set.
 
 Let’s change to the latest version of Ruby:
 
-    $ rbenv global 2.2.3
+    $ rbenv global 2.3.0
 
 Now Rbenv will give you this version of Ruby any time you run “ruby”, “irb”, “gem”, or any other Ruby command from the Terminal. If you run:
 
@@ -138,7 +138,7 @@ Now Rbenv will give you this version of Ruby any time you run “ruby”, “irb
 
 It should now output something like:
 
-    ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]
+    ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin15]
 
 ### Install Rails
 
@@ -160,7 +160,7 @@ Let’s try again:
 
 Now it should output something like:
 
-    Rails 4.2.4
+    Rails 5.0.0
 
 To learn how to create a new Rails application, continue with the [Getting Started with Rails guide](http://guides.rubyonrails.org/getting_started.html).
 
@@ -188,9 +188,9 @@ First make sure you’re in the root directory of your Rails application (you’
 
     $ cd ~/work/myapp/
 
-Now you can set the Ruby version for the Rails application in this directory to `2.2.3` by running the following command in the Terminal:
+Now you can set the Ruby version for the Rails application in this directory to `2.3.0` by running the following command in the Terminal:
 
-    $ rbenv local 2.2.3
+    $ rbenv local 2.3.0
 
 This creates a hidden `.ruby-version` file in the current directory containing the version of Ruby that Rbenv will use when you run a Ruby command from this directory, or any of its subdirectories.
 
@@ -201,11 +201,11 @@ If you now run:
 You should get something like:
 
       system
-    * 2.2.3 (set by /Users/thijs/work/myapp/.ruby-version)
+    * 2.3.0 (set by /Users/thijs/work/myapp/.ruby-version)
 
 When you try to run a Ruby command from a directory with a local Ruby version set that you don’t currently have installed, Rbenv will show you an error message such as:
 
-    rbenv: version `2.2.2' is not installed
+    rbenv: version `2.3.0' is not installed
 
 In that case, run `rbenv install` followed by the missing Ruby version number to install it.
 
