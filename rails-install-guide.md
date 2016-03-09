@@ -160,7 +160,7 @@ Let’s try again:
 
 Now it should output something like:
 
-    Rails 5.0.0
+    Rails Rails 4.2.5.2
 
 To learn how to create a new Rails application, continue with the [Getting Started with Rails guide](http://guides.rubyonrails.org/getting_started.html).
 
