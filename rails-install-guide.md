@@ -164,6 +164,14 @@ Now it should output something like:
 
 To learn how to create a new Rails application, continue with the [Getting Started with Rails guide](http://guides.rubyonrails.org/getting_started.html).
 
+### How to try Rails 5
+
+The next major version of Rails will be released any day now. If you like, you can get the latest release candidate of Rails 5 with:
+
+    $ gem install rails --prerelease
+
+Keep in mind that almost all books and tutorials, including the official Rails Guides, currently still assume that you’ll be using Rails 4.2.6.
+
 ### Adding a Gem
 
 If you’ve found a RubyGem you want to use in your Rails project, then you should list it in the `Gemfile` you can find in the root directory of your Rails project.
