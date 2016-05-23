@@ -89,7 +89,7 @@ Which should output something like:
 
     ruby 2.0.0p645 (2015-04-13 revision 50299) [universal.x86_64-darwin15]
 
-Ruby 2.0.0 was released in early 2013 and is three releases behind the current stable version of Ruby at the time of writing.
+Ruby 2.0.0 was released in early 2013 and is a few releases behind the current stable version of Ruby at the time of writing.
 
 A more important argument against using the default Ruby installation that Apple has included on your Mac is that this requires you to install any additional Gems as the root user, and that doing so permanently changes the OS X system installation.
 
