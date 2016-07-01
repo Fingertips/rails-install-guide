@@ -21,7 +21,7 @@ Rbenv is a tool that allows you to set up and manage multiple separate Ruby inst
 You can find more information and full documentation for each of these components on the web:
 
 - Ruby: <http://ruby-doc.org>
-- Rails: <http://rubyonrails.org/documentation/>
+- Rails: <http://rubyonrails.org/>
 - RubyGems: <http://guides.rubygems.org>
 - Bundler: <http://bundler.io>
 - Rbenv: <https://github.com/rbenv/rbenv>
