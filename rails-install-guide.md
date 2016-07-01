@@ -26,13 +26,11 @@ You can find more information and full documentation for each of these component
 - Bundler: <http://bundler.io>
 - Rbenv: <https://github.com/rbenv/rbenv>
 
-
 ## Installation
 
 This guide assumes you’re using a Mac running OS X 10.11 El Capitan. Most things should also work for earlier versions of OS X as well as on Linux. It also assumes you have a text editor (such as Atom, TextMate, or Sublime Text) and that you know how to run commands in the Terminal.
 
 The purpose is not to provide the quickest way to get Rails running. Rather, this guide gives you the same setup as most developers who regularly work on Rails projects. It also helps you understand this setup and how to use and maintain it. Finally, this guide makes no permanent changes to your computer’s operating system installation by never requiring you to “sudo to root”.
-
 
 ### Homebrew
 
@@ -77,7 +75,7 @@ You can upgrade all the tools you have installed with Homebrew to their latest v
 
 If you ever need a command line tool that’s not installed on OS X by default, then you can probably get it with Homebrew. Homebrew is also a nice way to install and use a more recent version of tools that come with OS X like Git or Subversion. 
 
-For more information, see <http://git.io/vWHiz>
+For more information, see <https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/FAQ.md>
 
 ### Why not just use the Ruby that came with OS X?
 
@@ -87,7 +85,7 @@ The version of Ruby that Apple includes with OS X is a bit older than the curren
 
 Which should output something like:
 
-    ruby 2.0.0p645 (2015-04-13 revision 50299) [universal.x86_64-darwin15]
+    ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin15]
 
 Ruby 2.0.0 was released in early 2013 and is a few releases behind the current stable version of Ruby at the time of writing.
 
@@ -160,17 +158,9 @@ Let’s try again:
 
 Now it should output something like:
 
-    Rails Rails 4.2.6
+    Rails 5.0.0
 
 To learn how to create a new Rails application, continue with the [Getting Started with Rails guide](http://guides.rubyonrails.org/getting_started.html).
-
-### How to try Rails 5
-
-The next major version of Rails will be released any day now. If you like, you can get the latest release candidate of Rails 5 with:
-
-    $ gem install rails --prerelease
-
-Keep in mind that almost all books and tutorials, including the official Rails Guides, currently still assume that you’ll be using Rails 4.2.6.
 
 ### Adding a Gem
 
